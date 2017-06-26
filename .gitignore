@@ -1,0 +1,14 @@
+address.tex
+mobile_phone.tex
+.pydevproject
+.project
+.settings/
+.texlipse
+CV*.pdf
+*.synctex.gz
+*.aux
+*.cb
+*.cb2
+*.log
+*.toc
+*.out

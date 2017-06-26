@@ -1,0 +1,43 @@
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[green]{classic}
+% CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and
+% 'banking'
+% CV color - options include: 'blue' (default), 'orange', 'green', 'red',
+% 'purple', 'grey' and 'black'
+\usepackage[top=1cm, bottom=1cm, left=1cm, right=1cm]{geometry}
+\usepackage[french]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{multibib} 
+
+\firstname{
+  Pierre
+}
+\familyname{
+  Sassoulas
+}
+\title{
+  Ingénieur diplômé de l'INSA de Rouen \newline{}
+  Architecture des Systèmes d'Information
+}
+\email{
+  pierre.sassoulas at gmail.com
+}
+\input{address.tex}
+\input{mobile_phone.tex}
+% \phone{}
+\extrainfo{
+  Titulaire du permis B
+} % \\ et du CACES nacelle}
+% CACES Valide uniquement entre 2008 et 2013 (Valable 5 ans)
+%\photo[92pt][0.4pt]{picture.jpg}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+\newcites{book,misc}{{Books},{Others}}
+\nopagenumbers{}
+ 
+\begin{document}
+
+\end{document}
