@@ -10,7 +10,7 @@ CV:
 	make clean;\
 
 readme:
-	python create_readme.py
+	python create_readme.py CV_SASSOULAS_Pierre.tex
 
 clean:
 	rm -f *.aux *.cb *.cb2 *.log *.toc *.out

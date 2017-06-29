@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+import argparse
+
 def read_latex(file_):
     """ Return the content of a latex file without the command. """
     with open(file_) as f:
@@ -101,8 +103,11 @@ def latex_to_md(text):
     return text
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("cvfile", help="The name of your CV's LaTeX file")
+    args = parser.parse_args()
     readme = open("readme.md", 'w')
-    document = read_latex("CV_SASSOULAS_Pierre.tex")
+    document = read_latex(args.cvfile)
     head, body = document.split("begin{document}")
     first_name = get_command_as_list(head, "firstname")[0]
     last_name = get_command_as_list(head, "familyname")[0]
