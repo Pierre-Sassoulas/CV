@@ -100,6 +100,9 @@ def latex_to_md(text):
     #  re.sub("\\textbf{[\-\w ()'\\{}]*}", "** **", text)
     text = text.replace("\\textbf{", "__").replace("}", "__")
     text = text.replace("\\newline{__", ",")
+    text = text.replace("\\Rating{100__", ":star:")
+    text = text.replace("\\LaTeX{__", "LaTeX")
+
     return text
 
 if __name__ == "__main__":
@@ -130,6 +133,7 @@ if __name__ == "__main__":
         cventry = get_command_as_list(section_content, "cventry")
         cvline = get_command_as_list(section_content, "cvline")
         cvlanguage = get_command_as_list(section_content, "cvlanguage")
+	cvcomputer = get_command_as_list(section_content, "cvcomputer")
         if cventry:
             for line in cventry:
                 md_line = """
@@ -157,5 +161,18 @@ if __name__ == "__main__":
 
 %s
 """ % (language[0], language[1])
+                readme.write(md_line)
+        if cvcomputer:
+            for computer in cvcomputer:
+                md_line = """
+## %s
+
+%s
+
+## %s
+
+%s
+""" % (latex_to_md(computer[0]), latex_to_md(computer[1]),
+       latex_to_md(computer[2]), latex_to_md(computer[3]))
                 readme.write(md_line)
     readme.close()

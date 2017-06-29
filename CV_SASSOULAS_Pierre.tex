@@ -10,6 +10,30 @@
 \usepackage[T1]{fontenc}
 \usepackage{multibib} 
 
+\usepackage{pstricks}
+\usepackage{fontawesome}
+\usepackage{multido}
+\SpecialCoor
+\makeatletter
+\def\LoadPSVars{\pstVerb{/ptcm {\pst@number\psunit div} bind def}}
+\makeatother
+
+\def\points{}
+\def\Star{%
+    \xdef\points{}% cleaning
+    \multido{\iR=0+72,\ir=36+72}{5}{\xdef\points{\points (10pt;\iR)(5pt;\ir)}}
+    \expandafter\pspolygon\points}
+
+\def\Rating#1{% #1: percentage
+    \psscalebox{0.35}{%
+    \begin{pspicture}(11pt,-11pt)(25pt,11pt)
+    \LoadPSVars
+    \psclip{\pscustom{\translate(20pt,0)\Star}}
+        \psframe*[linecolor=yellow](11pt,-11pt)(!#1 11 add ptcm 11 ptcm)
+    \endpsclip
+    \pscustom{\translate(20pt,0)\Star}
+    \end{pspicture}}}
+
 \firstname{
   Pierre
 }
@@ -89,7 +113,7 @@
     }
 
   \cventry
-    {2 semestres \textbf{python}, \textbf{SQL}, \textbf{GP}, \textbf{web}}
+    {2 semestres \textbf{python}, \textbf{SQL}, \textbf{web}}
     {Chef de projet et développeur}
     {A2IA, INSA}
     {Rouen}
@@ -195,7 +219,7 @@
     }{}{}
 
   \cvline
-    {\textbf{C}, \textbf{\LaTeX}}
+    {\textbf{C}, \textbf{\LaTeX{}}}
     {
       Conception et réalisation de l'intelligence artificielle d'un logiciel
       d'othello, et d'un programme arbitre pour tournoi d'othello entre
@@ -203,7 +227,7 @@
     }{}{}
 
   \cvline
-    {\textbf{C++}, \textbf{matlab} }
+    {\textbf{C++}, \textbf{matlab}}
     {
       Conception et réalisation d'un mod de profilage de joueur sur le logiciel
       libre Teeworld.
@@ -236,22 +260,23 @@
     {}{}{}{}
 
   \section{INFORMATIQUE}
-  \cvline
-    {Bureautique}
-    {Titulaire du \textbf{C2I} (Certificat Informatique et Internet) niveau 1}
-    {}{}
 
-  \cvline
-    {CAO}
-    {Solidworks, Gimp, Inkscape, Audacity, Suite Adobe CSX.}
-    {}{}
+  \cvcomputer
+    {\Rating{100}}
+    {signifie que mes collègues me posent des questions en cas de problème sur cette technologie}
+    {\textbf{Langages}}
+    {Python \Rating{100}, Ruby, Javascript, HTML, C/C++, Java, Bash, Matlab, SQL, assembleur}
 
-  \cvline
-    {Langages}
-    {
-      Python, Framework python : Django, C, JAVA, C++, Ruby, HTML, XML, XSL,
-      \LaTeX{}, Bash, LDAP, Ada, Matlab/Octave, SQL, UML, JavaScript, CSS,
-      PHP, JSP, Framework J2EE : Struts/JBoss/Tomcat, Basic, Pascal, assembleur
-    }{}{}
+  \cvcomputer
+    {\textbf{Frameworks}}
+    {Django \Rating{100}, Bootstrap (JQuery)}
+    {\textbf{Outils}}
+    {Git \Rating{100}, Eclipse, Svn, serveur Apache, Jenkins, SonarQube, Redmine, Sphinx, Plantuml}
+
+  \cvcomputer
+    {\textbf{Bureautique}}
+    {\LaTeX{} \Rating{100}, C2I niveau 1 (LibreOffice, Suite Office)}
+    {\textbf{Logiciels}}
+    {Solidworks, Gimp \Rating{100}, Inkscape, Audacity, Suite Adobe CSX}
 
 \end{document}

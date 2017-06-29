@@ -5,8 +5,7 @@ all: CV readme
 CV:
 	TEXINPUTS=${TEXINPUTS}:"$(shell pwd)/moderncv/";\
 	export TEXINPUTS;\
-	pdflatex CV*.tex;\
-	pdflatex CV*.tex;\
+	xelatex CV*.tex;\
 	make clean;\
 
 readme:
