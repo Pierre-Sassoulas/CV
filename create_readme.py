@@ -98,6 +98,7 @@ def get_command_as_list(text, command):
 
 def latex_to_md(text):
     #  re.sub("\\textbf{[\-\w ()'\\{}]*}", "** **", text)
+    text = text.replace("\\\\", "")
     text = text.replace("\\textbf{", "__").replace("}", "__")
     text = text.replace("\\newline{__", ",")
     text = text.replace("\\Rating{100__", ":star:")

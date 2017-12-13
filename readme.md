@@ -18,16 +18,23 @@ pierre.sassoulas at gmail.com
 
 # EXPÉRIENCE PROFESSIONNELLE
 
+## Ingénieur informatique
+
+**Depuis 2018 __C++__, __azure__** : WiseBim, Chambéry
+
+ Mise en place d'une architecture permettant la génération automatique de maquette numérique 3D (BIM) à partir de plans d'architecte en 2D de manière fiable et sécurisée à travers une interface web. 
+
+
 ## Ingénieur-Chercheur
 
-**1 an et demi __big data__, __python__** : CEA/INES, Chambéry
+**18 mois  __big data__, __python__** : CEA/INES, Chambéry
 
  Étude et mise en place d'une grappe de serveur et de son interface web pour stocker, présenter et analyser des flux importants de données disparates en provenance de capteurs. 
 
 
 ## Stagiaire ingénieur
 
-**6 mois __ruby__,__XML__, __DO178__** : Thales Avionics SAS, Valence
+**6 mois  __ruby__, __XML__, __DO178__** : Thales Avionics SAS, Valence
 
  Étude des besoins, réalisation et qualification selon la norme DO330 d'un logiciel calculant des métriques de qualité concernant le code et les artefacts de la norme DO178 pour les logiciels critiques de l'avionique. 
 
@@ -37,13 +44,6 @@ pierre.sassoulas at gmail.com
 **2 semestres __python__, __SQL__, __web__** : A2IA, INSA, Rouen
 
  Gestion de projet et réalisation d'un outil de gestion de gros volumes de métadonnées d'images pour la reconnaissance de caractère. Durant 25 heures par semaine en groupe de 15 en relation avec une sous traitance interne dans le cadre de la formation INSA, et dans le respect de la norme ISO9001:2008. 
-
-
-## Stage de spécialité
-
-**3 mois __python__, __web__** : Bull, Grenoble
-
- Réalisation d'un outil web de Quotation permettant de faciliter le choix des pièces lors de l'achat des composants d'un supercalculateur. 
 
 
 # EXPÉRIENCE PERSONNELLE
@@ -96,7 +96,7 @@ signifie que mes collègues me posent des questions en cas de problème sur cett
 
 ## __Langages__
 
-Python :star:, Ruby, Javascript, HTML, C/C++, Java, Bash, Matlab, SQL, assembleur
+Python :star:, C/C++, Javascript, HTML, Ruby, Java, Bash, Matlab, SQL, assembleur
 
 ## __Frameworks__
 
@@ -104,7 +104,7 @@ Django :star:, Bootstrap (JQuery)
 
 ## __Outils__
 
-Git :star:, Eclipse, Svn, serveur Apache, Jenkins, SonarQube, Redmine, Sphinx, Plantuml
+Git :star:, Eclipse, SVN, serveur Apache, Jenkins, SonarQube, Sphinx, Plantuml, Docker
 
 ## __Bureautique__
 
