@@ -20,7 +20,7 @@ pierre.sassoulas at gmail.com
 
 ## Ingénieur informatique
 
-**Depuis 2018 __C++__, __azure__** : WiseBim, Chambéry
+**Depuis 2018 __C++__, __docker__** : WiseBim, Travail à distance
 
  Mise en place d'une architecture permettant la génération automatique de maquette numérique 3D (BIM) à partir de plans d'architecte en 2D de manière fiable et sécurisée à travers une interface web. 
 
@@ -43,19 +43,19 @@ pierre.sassoulas at gmail.com
 
 **2 semestres __python__, __SQL__, __web__** : A2IA, INSA, Rouen
 
- Gestion de projet et réalisation d'un outil de gestion de gros volumes de métadonnées d'images pour la reconnaissance de caractère. Durant 25 heures par semaine en groupe de 15 en relation avec une sous traitance interne dans le cadre de la formation INSA, et dans le respect de la norme ISO9001:2008. 
+ Gestion de projet et réalisation d'un outil de gestion de gros volumes de métadonnées d'images pour la reconnaissance de caractères. Durant 25 heures par semaine en groupe de 15 en relation avec une sous traitance interne dans le cadre de la formation INSA, et dans le respect de la norme ISO9001:2008. 
 
 
 # EXPÉRIENCE PERSONNELLE
 
+## __python__, __GP__
+
+ Reprise, reconception, ajout de fonctionalités et gestion (Tickets Github, publication sur Pypi et offres de travail en freelance) d'un projet OpenSource permettant de réaliser des sondages. 
+
+
 ## __Réalisation de film__, __GP__
 
  En groupe de 3 à 5, scénarisation, réalisation et promotion d'une comédie féministe, d'un film d'action, d'un film de suspense et d'un western moderne dans le cadre de la Section Image Étude de l'INSA. 
-
-
-## __python__, __web__
-
- Reprise et amélioration du site de la mission qualité de l'INSA (permettant de réaliser des statistiques sur la satisfaction des personnels et élèves chaque semestre). 
 
 
 ## __éléctronique__, __arduino__
