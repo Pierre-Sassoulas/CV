@@ -12,3 +12,9 @@ CV*.pdf
 *.log
 *.toc
 *.out
+/tmp/
+/document.pdf
+Version/
+Latex/
+moderncv/
+picture.jpg
