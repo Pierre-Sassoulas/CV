@@ -16,13 +16,11 @@
 \makeatletter
 \def\LoadPSVars{\pstVerb{/ptcm {\pst@number\psunit div} bind def}}
 \makeatother
-
 \def\points{}
 \def\Star{%
     \xdef\points{}% cleaning
     \multido{\iR=0+72,\ir=36+72}{5}{\xdef\points{\points (10pt;\iR)(5pt;\ir)}}
     \expandafter\pspolygon\points}
-
 \def\Rating#1{% #1: percentage
     \psscalebox{0.35}{%
     \begin{pspicture}(11pt,-11pt)(25pt,11pt)
@@ -32,7 +30,6 @@
     \endpsclip
     \pscustom{\translate(20pt,0)\Star}
     \end{pspicture}}}
-
 \firstname{
   Pierre
 }
@@ -40,7 +37,7 @@
   Sassoulas
 }
 \title{
-  Ingénieur diplômé de l'INSA de Rouen \newline{}
+  Ingénieur informatique \newline{}
   Architecture des Systèmes d'Information
 }
 \email{
@@ -55,7 +52,6 @@
 } % \\ et du CACES nacelle}
 % CACES Valide uniquement entre 2008 et 2013 (Valable 5 ans)
 %\photo[92pt][0.4pt]{picture.jpg}
-
 \makeatletter
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 \makeatother
@@ -64,14 +60,14 @@
 
 \begin{document}
   \maketitle
-
-  \section{FORMATION}
-
-%  \cventry
-%    {2008}
-%    {Caces Nacelle}
-%    {CEFTIC de Pierrelatte}
-%    {}{}{}
+  \vspace*{-5mm}
+    \section{FORMATION}
+    \cventry
+    {2009 - 2015}
+    {Élève-ingénieur}
+    {INSA de Rouen}
+    {Architecture des Systèmes d'Information (ASI)}
+    {}{}
 
 %  \cventry
 %    {2009}
@@ -81,140 +77,175 @@
 %    {Montélimar}
 %    {}
 
-  \cventry
-    {2009 - 2015}
-    {Élève-ingénieur}
-    {INSA de Rouen}
-    {Architecture des Systèmes d'Information (ASI)}
-    {}{}
+%  \cventry
+%    {2008}
+%    {Caces Nacelle}
+%    {CEFTIC de Pierrelatte}
+%    {}{}{}
 
   \section{EXPÉRIENCE PROFESSIONNELLE}
+  \cventry
+    {\textbf{python}, \textbf{docker}, \textbf{C++}}
+    {Consultant technique}
+    {Antidot}
+    {Lyon}
+    {Septembre 2018 à ce jour}{
+      Développement de modules spécifiques ; support de niveau 3 et gestion d'un pipeline de déploiement
+      continue ; de la mise en place, au passage en production, d'une plateforme de documentation
+      technique ou de solutions de recherches et de traitements documentaires spécifiques.
+    }
 
   \cventry
-    {Depuis 2018 \textbf{C++}, \textbf{docker}}
+    {\textbf{C++}, \textbf{docker}, \textbf{python}}
     {Ingénieur informatique}
     {WiseBim}
     {Travail à distance}
-    {}{
+    {Janvier 2018 à Juillet 2018}{
       Mise en place d'une architecture permettant la génération automatique de
-      maquette numérique 3D (BIM) à partir de plans d'architecte en 2D de
+      maquettes numériques 3D (BIM) à partir de plans d'architecte en 2D de
       manière fiable et sécurisée à travers une interface web.
     }
 
   \cventry
-    {18 mois \\ \textbf{big data}, \textbf{python}}
+    {\textbf{big data}, \textbf{python}, \textbf{C++}}
     {Ingénieur-Chercheur}
     {CEA/INES}
     {Chambéry}
-    {}{
-      Étude et mise en place d'une grappe de serveur et de son interface web
+    {Juin 2016 à Décembre 2017}{
+      Étude et mise en place d'une grappe de serveurs et de son interface web
       pour stocker, présenter et analyser des flux importants de données
       disparates en provenance de capteurs.
     }
 
   \cventry
-    {6 mois \\ \textbf{ruby}, \textbf{XML}, \textbf{DO178}}
+    {\textbf{ruby}, \\ \textbf{XML}, \textbf{DO178}}
     {Stagiaire ingénieur}
     {Thales Avionics SAS}
     {Valence}
-    {}{
+    {6 mois}{
       Étude des besoins, réalisation et qualification selon la norme DO330
       d'un logiciel calculant des métriques de qualité concernant le code et
       les artefacts de la norme DO178 pour les logiciels critiques de
       l'avionique.
     }
 
-  \cventry
-    {2 semestres \textbf{python}, \textbf{SQL}, \textbf{web}}
-    {Chef de projet et développeur}
-    {A2IA, INSA}
-    {Rouen}
-    {}{
-      Gestion de projet et réalisation d'un outil de gestion de gros volumes de
-      métadonnées d'images pour la reconnaissance de caractères. Durant 25
-      heures par semaine en groupe de 15 en relation avec une sous traitance
-      interne dans le cadre de la formation INSA, et dans le respect de la
-      norme ISO9001:2008.
-    }
+%  \cventry
+%    {\textbf{python}, \textbf{SQL}, \textbf{web}}
+%    {Chef de projet et développeur}
+%    {A2IA, INSA}
+%    {Rouen}
+%    {2 semestres}{
+%      Gestion de projet et réalisation d'un outil de gestion de gros volumes de
+%      métadonnées d'images pour la reconnaissance de caractères. Durant 25
+%      heures par semaine en groupe de 15 en relation avec une sous traitance
+%      interne dans le cadre de la formation INSA, et dans le respect de la
+%      norme ISO9001:2008.
+%    }
 
 %  \cventry
-%    {1 semestre \textbf{python}, \textbf{SOAP}, \textbf{Qualité}}
+%    {\textbf{python}, \textbf{SOAP}, \textbf{Qualité}}
 %    {Développeur}
 %    {Dynamease, INSA}
 %    {Rouen}
-%    {}{
+%    {1 semestre}{
 %      Réalisation de module pour openERP et d'un outil de gestion d'appel
 %      téléphonique. Durant 25 heures par semaine en groupe de 7 dans le cadre
 %      de la formation INSA et dans le respect de la norme ISO9001:2008.
 %    }
 
-%  \cventry
-%    {3 mois \textbf{python}, \textbf{web}}
-%    {Stage de spécialité}
-%    {Bull}
-%    {Grenoble}
-%    {}{
-%      Réalisation d'un outil web de Quotation permettant de faciliter le choix
-%      des pièces lors de l'achat des composants d'un supercalculateur.
-%    }
+  \cventry
+    {\textbf{python}, \textbf{web}}
+    {Stage de spécialité}
+    {Bull}
+    {Grenoble}
+    {3 mois}{
+      Réalisation d'un outil web de Quotation permettant de faciliter le choix
+      des pièces lors de l'achat des composants d'un supercalculateur.
+    }
 
 %  \cventry
-%    {9 semaines \textbf{monde du travail}}
+%    {\textbf{monde du travail}}
 %    {Stage ouvrier}
 %    {Autajon}
 %    {Montélimar}
-%    {}{
+%    {9 semaines}{
 %      Remise à jour et réorganisation des stocks d'outillage de l'atelier
 %      découpe.
 %    }
 
 %  \cventry
-%    {2 étés \textbf{monde du travail}}
+%    {\textbf{monde du travail}}
 %    {Agent d'entretien en contrat saisonnier}
 %    {ASF, Autajon}
 %    {Montélimar}
-%    {}{
+%    {2 étés}{
 %      Nettoyage de toilettes d'autoroutes, nettoyage en hauteur à l’aide d'une
 %      nacelle.
 %    }
 
 %  \cventry
-%    {8 mois \textbf{HTML} \textbf{CSS} \textbf{javascript}}
+%    {\textbf{HTML} \textbf{CSS} \textbf{javascript}}
 %    {}
 %    {Collège Europa}
 %    {Montélimar}
-%    {}{
+%    {8 mois}{
 %      Création et maintenance de sites en HTML dont l’intranet et le site
 %      internet du collège Europa
 %    }
 
 %  \cventry
-%    {Une semaine \textbf{monde du travail} \textbf{Rédaction}}
+%    {\textbf{monde du travail} \textbf{Rédaction}}
 %    {Stage de troisième}
 %    {La tribune}
 %    {Montélimar}
-%    {}{
+%    {Une semaine}{
 %      Rédaction d'article, mise en page, critique de livre, « reportage » au
 %      tournoi UNSS départemental de handball.
 %    }
 
   \section{EXPÉRIENCE PERSONNELLE}
 
-  \cvline
-    {\textbf{python}, \textbf{GP}}
-    {
-      Reprise, reconception, ajout de fonctionalités et gestion (Tickets Github,
-      publication sur Pypi et offres de travail en freelance) d'un projet
-      OpenSource permettant de réaliser des sondages.
-    }{}{}
+    \cventry
+    {\textbf{Pédagogie}}
+    {Encadrant}
+    {Mixteen}
+    {Lyon}
+    {Mai 2019 à ce jour}{
+      Encadrement d'enfants lors d'ateliers permettant de découvrir l’informatique de façon ludique avec
+	  Scratch, Thymio, Pygame et Micro$:$bit en fonction de leur âge.
+    }
 
-  \cvline
-    {\textbf{Réalisation de film}, \textbf{GP}}
-    {
+    \cventry
+    {\textbf{Gestion}, \textbf{Freelance}}
+    {Mainteneur}
+    {Open-source}
+    {Github}
+    {Mars 2017 à ce jour}{
+      Développement et gestion (Pull request, publication sur Pypi et offres de travail en freelance)
+	  autour d'un module d'évaluation de la force de mots de passe, d'une application web permettant de réaliser des
+	  sondages.
+    }
+
+    \cventry
+    {\textbf{python}, \textbf{Qualité}}
+    {Contributeur}
+    {Python Code Quality Authority}
+    {Github}
+    {Novembre 2016 à ce jour}{
+      Contribution à l'évolution du logiciel \textbf{pylint}, un outil d'analyse statique de la qualité du code
+      en python.
+    }
+
+    \cventry
+    {\textbf{Gestion}, \textbf{Vidéo}}
+    {Factotum}
+    {Insa}
+    {Rouen}
+    {Février 2010 à Juin 2014}{
       En groupe de 3 à 5, scénarisation, réalisation et promotion d'une comédie
       féministe, d'un film d'action, d'un film de suspense et d'un western
       moderne dans le cadre de la Section Image Étude de l'INSA.
-    }{}{}
+    }
 
 %  \cvline
 %    {\textbf{python}, \textbf{web}}
@@ -231,34 +262,38 @@
 %      libre de gestion de bar (POSSUM).
 %    }{}{}
 
-  \cvline
-    {\textbf{éléctronique}, \textbf{arduino}}
-    {
-      Conception et réalisation d'un cube en bois doté d'un clavier et de LED
-      tricolore contrôlée par une Arduino et permettant de jouer au morpion.
-    }{}{}
+%  \cvline
+%    {\textbf{éléctronique}, \textbf{arduino}}
+%    {
+%      Conception et réalisation d'un cube en bois doté d'un clavier et de LED
+%      tricolore contrôlée par une Arduino et permettant de jouer au morpion.
+%    }{}{}
 
-  \cvline
+
+    \cventry
     {\textbf{C}, \textbf{\LaTeX{}}}
-    {
+    {Développeur}
+    {Insa}
+    {Rouen}
+    {Septembre 2011 à Juin 2012}{
       Conception et réalisation de l'intelligence artificielle d'un logiciel
       d'othello, et d'un programme arbitre pour tournoi d'othello entre
       logiciels.
-    }{}{}
+    }
 
-  \cvline
-    {\textbf{C++}, \textbf{matlab}}
-    {
-      Conception et réalisation d'un mod de profilage de joueur sur le logiciel
-      libre Teeworld.
-    }{}{}
+%  \cvline
+%    {\textbf{C++}, \textbf{matlab}}
+%    {
+%      Conception et réalisation d'un mod de profilage de joueur sur le logiciel
+%      libre Teeworld.
+%    }{}{}
 
-  \cvline
-    {\textbf{java}, \textbf{IHM}}
-    {
-      Conception et réalisation d'un logiciel de musique assistée par
-      ordinateur permettant de composer des morceaux intuitivement. (Miraaz).
-    }{}{}
+%  \cvline
+%    {\textbf{java}, \textbf{IHM}}
+%    {
+%      Conception et réalisation d'un logiciel de musique assistée par
+%      ordinateur permettant de composer des morceaux intuitivement. (Miraaz).
+%    }{}{}
 
 %  \cvline
 %    {\textbf{java}, \textbf{IHM}}
@@ -271,7 +306,7 @@
 
   \cvlanguage
     {Anglais}
-    {Bilingue (TOEIC Test : 920/990)}
+    {Experimenté (C2) (TOEIC 2013: 920/990)}
     {Traducteur bénévole pour Ubuntu, Jenkins et FlossManual}
 
   \cvlanguage
@@ -282,23 +317,21 @@
   \section{INFORMATIQUE}
 
   \cvcomputer
-    {\Rating{100}}
-    {signifie que mes collègues me posent des questions en cas de problème sur cette technologie}
     {\textbf{Langages}}
-    {Python \Rating{100}, C/C++, Javascript, HTML, Ruby, Java, Bash, Matlab,
-    SQL, assembleur}
+    {Python, Bash, C/C++, SQL, Ruby}
+    {\textbf{Outils}}
+    {Git, Docker, Sphinx, Plantuml}
 
   \cvcomputer
     {\textbf{Frameworks}}
-    {Django \Rating{100}, Bootstrap (JQuery)}
-    {\textbf{Outils}}
-    {Git \Rating{100}, Eclipse, SVN, serveur Apache, Jenkins, SonarQube,
-    Sphinx, Plantuml, Docker}
+    {Django, Bootstrap (JQuery)}
+    {\textbf{Logiciels}}
+    {Gimp, Inkscape, Audacity, Suite Adobe}
 
   \cvcomputer
+    {\textbf{DevOps}}
+    {Déploiement continu, Apache, Kubernetes}
     {\textbf{Bureautique}}
-    {\LaTeX{} \Rating{100}, C2I niveau 1 (LibreOffice, Suite Office)}
-    {\textbf{Logiciels}}
-    {Solidworks, Gimp \Rating{100}, Inkscape, Audacity, Suite Adobe CSX}
+    {\LaTeX{}, C2I niveau 2mi (LibreOffice, Office)}
 
 \end{document}

@@ -1,10 +1,10 @@
 # À PROPOS DE MOI
 
-Pierre  Sassoulas , Ingénieur diplômé de l'INSA de Rouen , Architecture des Systèmes d'Information
+Pierre  Sassoulas , Ingénieur informatique , Architecture des Systèmes d'Information 
 
 ## Pour me contacter
 
-pierre.sassoulas at gmail.com
+pierre.sassoulas at gmail.com 
 
 
 # FORMATION
@@ -18,71 +18,83 @@ pierre.sassoulas at gmail.com
 
 # EXPÉRIENCE PROFESSIONNELLE
 
+## Consultant technique
+
+**__python__, __docker__, __C++__** : Antidot, Lyon
+
+ Développement de modules spécifiques ; support de niveau 3 et gestion d'un pipeline de déploiement continue ; de la mise en place, au passage en production, d'une plateforme de documentation technique ou de solutions de recherches et de traitements documentaires spécifiques. 
+
+
 ## Ingénieur informatique
 
-**Depuis 2018 __C++__, __docker__** : WiseBim, Travail à distance
+**__C++__, __docker__, __python__** : WiseBim, Travail à distance
 
- Mise en place d'une architecture permettant la génération automatique de maquette numérique 3D (BIM) à partir de plans d'architecte en 2D de manière fiable et sécurisée à travers une interface web.
+ Mise en place d'une architecture permettant la génération automatique de maquettes numériques 3D (BIM) à partir de plans d'architecte en 2D de manière fiable et sécurisée à travers une interface web. 
 
 
 ## Ingénieur-Chercheur
 
-**18 mois  __big data__, __python__** : CEA/INES, Chambéry
+**__big data__, __python__, __C++__** : CEA/INES, Chambéry
 
- Étude et mise en place d'une grappe de serveur et de son interface web pour stocker, présenter et analyser des flux importants de données disparates en provenance de capteurs.
+ Étude et mise en place d'une grappe de serveurs et de son interface web pour stocker, présenter et analyser des flux importants de données disparates en provenance de capteurs. 
 
 
 ## Stagiaire ingénieur
 
-**6 mois  __ruby__, __XML__, __DO178__** : Thales Avionics SAS, Valence
+**__ruby__,  __XML__, __DO178__** : Thales Avionics SAS, Valence
 
- Étude des besoins, réalisation et qualification selon la norme DO330 d'un logiciel calculant des métriques de qualité concernant le code et les artefacts de la norme DO178 pour les logiciels critiques de l'avionique.
+ Étude des besoins, réalisation et qualification selon la norme DO330 d'un logiciel calculant des métriques de qualité concernant le code et les artefacts de la norme DO178 pour les logiciels critiques de l'avionique. 
 
 
-## Chef de projet et développeur
+## Stage de spécialité
 
-**2 semestres __python__, __SQL__, __web__** : A2IA, INSA, Rouen
+**__python__, __web__** : Bull, Grenoble
 
- Gestion de projet et réalisation d'un outil de gestion de gros volumes de métadonnées d'images pour la reconnaissance de caractères. Durant 25 heures par semaine en groupe de 15 en relation avec une sous traitance interne dans le cadre de la formation INSA, et dans le respect de la norme ISO9001:2008.
+ Réalisation d'un outil web de Quotation permettant de faciliter le choix des pièces lors de l'achat des composants d'un supercalculateur. 
 
 
 # EXPÉRIENCE PERSONNELLE
 
-## __python__, __GP__
+## Encadrant
 
- Reprise, reconception, ajout de fonctionalités et gestion (Tickets Github, publication sur Pypi et offres de travail en freelance) d'un projet OpenSource permettant de réaliser des sondages.
+**__Pédagogie__** : Mixteen, Lyon
 
-
-## __Réalisation de film__, __GP__
-
- En groupe de 3 à 5, scénarisation, réalisation et promotion d'une comédie féministe, d'un film d'action, d'un film de suspense et d'un western moderne dans le cadre de la Section Image Étude de l'INSA.
+ Encadrement d'enfants lors d'ateliers permettant de découvrir l’informatique de façon ludique avec Scratch, Thymio, Pygame et Micro$:$bit en fonction de leur âge. 
 
 
-## __éléctronique__, __arduino__
+## Mainteneur
 
- Conception et réalisation d'un cube en bois doté d'un clavier et de LED tricolore contrôlée par une Arduino et permettant de jouer au morpion.
+**__Gestion__, __Freelance__** : Open-source, Github
 
-
-## __C__, __LaTeX__
-
- Conception et réalisation de l'intelligence artificielle d'un logiciel d'othello, et d'un programme arbitre pour tournoi d'othello entre logiciels.
+ Développement et gestion (Pull request, publication sur Pypi et offres de travail en freelance) autour d'un module d'évaluation de la force de mots de passe, d'une application web permettant de réaliser des sondages. 
 
 
-## __C++__, __matlab__
+## Contributeur
 
- Conception et réalisation d'un mod de profilage de joueur sur le logiciel libre Teeworld.
+**__python__, __Qualité__** : Python Code Quality Authority, Github
+
+ Contribution à l'évolution du logiciel \textbf{pylint}, un outil d'analyse statique de la qualité du code en python. 
 
 
-## __java__, __IHM__
+## Factotum
 
- Conception et réalisation d'un logiciel de musique assistée par ordinateur permettant de composer des morceaux intuitivement. (Miraaz).
+**__Gestion__, __Vidéo__** : Insa, Rouen
+
+ En groupe de 3 à 5, scénarisation, réalisation et promotion d'une comédie féministe, d'un film d'action, d'un film de suspense et d'un western moderne dans le cadre de la Section Image Étude de l'INSA. 
+
+
+## Développeur
+
+**__C__, __LaTeX__** : Insa, Rouen
+
+ Conception et réalisation de l'intelligence artificielle d'un logiciel d'othello, et d'un programme arbitre pour tournoi d'othello entre logiciels. 
 
 
 # LANGUES
 
 ## Anglais
 
-Bilingue (TOEIC Test : 920/990)
+Experimenté (C2) (TOEIC 2013: 920/990)
 
 ## Espagnol
 
@@ -90,26 +102,26 @@ Niveau Intermédiaire
 
 # INFORMATIQUE
 
-## :star:
-
-signifie que mes collègues me posent des questions en cas de problème sur cette technologie
-
 ## __Langages__
 
-Python :star:, C/C++, Javascript, HTML, Ruby, Java, Bash, Matlab, SQL, assembleur
-
-## __Frameworks__
-
-Django :star:, Bootstrap (JQuery)
+Python, Bash, C/C++, SQL, Ruby
 
 ## __Outils__
 
-Git :star:, Eclipse, SVN, serveur Apache, Jenkins, SonarQube, Sphinx, Plantuml, Docker
+Git, Docker, Sphinx, Plantuml
 
-## __Bureautique__
+## __Frameworks__
 
-LaTeX :star:, C2I niveau 1 (LibreOffice, Suite Office)
+Django, Bootstrap (JQuery)
 
 ## __Logiciels__
 
-Solidworks, Gimp :star:, Inkscape, Audacity, Suite Adobe CSX
+Gimp, Inkscape, Audacity, Suite Adobe
+
+## __DevOps__
+
+Déploiement continu, Apache, Kubernetes
+
+## __Bureautique__
+
+LaTeX, C2I niveau 2mi (LibreOffice, Office)
