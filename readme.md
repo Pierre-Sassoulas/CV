@@ -1,112 +1,116 @@
-# À PROPOS DE MOI
+# ABOUT ME
 
-Pierre  Sassoulas , Ingénieur informatique , Architecture des Systèmes d'Information 
+Pierre  Sassoulas , Software engineer , Information Systems Architectures 
 
-## Pour me contacter
+## Contact me
 
 pierre.sassoulas at gmail.com 
 
 
-# FORMATION
+# EDUCATION
 
-## Élève-ingénieur
+## Engineering student
 
-**2009 - 2015** : INSA de Rouen, Architecture des Systèmes d'Information (ASI)
-
-
+**2009 - 2015** : INSA de Rouen, Information Systems Architectures (ASI)
 
 
-# EXPÉRIENCE PROFESSIONNELLE
 
-## Consultant technique
+
+# PROFESSIONAL EXPERIENCE
+
+## Technical Consultant
 
 **__python__, __docker__, __C++__** : Antidot, Lyon
 
- Développement de modules spécifiques ; support de niveau 3 et gestion d'un pipeline de déploiement continue ; de la mise en place, au passage en production, d'une plateforme de documentation technique ou de solutions de recherches et de traitements documentaires spécifiques. 
+ Implementation of specfics modules; level 3 support and management of a continuous deployment pipeline; from creation to production of a content delivery platform or of specifics search or documentary treatment solutions. 
 
 
-## Ingénieur informatique
+## Software engineer
 
-**__C++__, __docker__, __python__** : WiseBim, Travail à distance
+**__C++__, __docker__, __python__** : WiseBim, Remote work
 
- Mise en place d'une architecture permettant la génération automatique de maquettes numériques 3D (BIM) à partir de plans d'architecte en 2D de manière fiable et sécurisée à travers une interface web. 
+ Set up of a SAAS architecture allowing to automatically generate 3D building information modeling (BIM) based on architectural 2D plans in a secure and reliable manner through a web interface. 
 
 
-## Ingénieur-Chercheur
+## Research engineer
 
 **__big data__, __python__, __C++__** : CEA/INES, Chambéry
 
- Étude et mise en place d'une grappe de serveurs et de son interface web pour stocker, présenter et analyser des flux importants de données disparates en provenance de capteurs. 
+ Study and implementation of a database cluster and its web interface in order to store, display and analyse a wide variety of data flux stemming from sensors. 
 
 
-## Stagiaire ingénieur
+## Software Engineering Intern
 
-**__ruby__,  __XML__, __DO178__** : Thales Avionics SAS, Valence
+**__ruby__,  __XML__, __DO178__** : Thales Avionics SAS, Valence (France)
 
- Étude des besoins, réalisation et qualification selon la norme DO330 d'un logiciel calculant des métriques de qualité concernant le code et les artefacts de la norme DO178 pour les logiciels critiques de l'avionique. 
+ Specification, conception, development, and qualification according to the DO330 norm of a quality tool for avionics software development. 
 
 
-## Stage de spécialité
+## Software Engineering Intern
 
 **__python__, __web__** : Bull, Grenoble
 
- Réalisation d'un outil web de Quotation permettant de faciliter le choix des pièces lors de l'achat des composants d'un supercalculateur. 
+ Development of a quotation tool easing the choice and buying procedure of supercomputer parts. 
 
 
-# EXPÉRIENCE PERSONNELLE
+# PERSONAL EXPERIENCE
 
-## Encadrant
+## Supervisor
 
-**__Pédagogie__** : Mixteen, Lyon
+**__Pedagogy__** : Mixteen, Lyon
 
- Encadrement d'enfants lors d'ateliers permettant de découvrir l’informatique de façon ludique avec Scratch, Thymio, Pygame et Micro$:$bit en fonction de leur âge. 
-
-
-## Mainteneur
-
-**__Gestion__, __Freelance__** : Open-source, Github
-
- Développement et gestion (Pull request, publication sur Pypi et offres de travail en freelance) autour d'un module d'évaluation de la force de mots de passe, d'une application web permettant de réaliser des sondages. 
+ Supervising children during workshop permitting to discover computer science in a playful manner tools like Scratch, Thymio, Pygame and Micro$:$bit depending on their age. 
 
 
-## Contributeur
+## Maintener
 
-**__python__, __Qualité__** : Python Code Quality Authority, Github
+**__Management__, __Freelance__** : Open-source, Github
 
- Contribution à l'évolution du logiciel \textbf{pylint}, un outil d'analyse statique de la qualité du code en python. 
+ Development, and community management (Github issues, pull request, Pypi publications and freelance offers) around a password strength validator, a survey's web application and a diagram's generating library. 
+
+
+## Contributer
+
+**__python__, __Quality__** : Python Code Quality Authority, Github
+
+ Contributed to the evolution of \textbf{pylint}, a code quality static analysis software for python. 
 
 
 ## Factotum
 
-**__Gestion__, __Vidéo__** : Insa, Rouen
+**__Film making__** : Insa, Rouen
 
- En groupe de 3 à 5, scénarisation, réalisation et promotion d'une comédie féministe, d'un film d'action, d'un film de suspense et d'un western moderne dans le cadre de la Section Image Étude de l'INSA. 
+ In groups of 3 to 5, writing, filming, editing and promoting of a feminist comedy, an action film, a suspens film and a modern western as part of the ``Section Image Étude'' in INSA. 
 
 
-## Développeur
+## Developper
 
 **__C__, __LaTeX__** : Insa, Rouen
 
- Conception et réalisation de l'intelligence artificielle d'un logiciel d'othello, et d'un programme arbitre pour tournoi d'othello entre logiciels. 
+ Conception and development of the artificial intelligence of an othello software and of an othello tournament manager. 
 
 
-# LANGUES
+# LANGUAGE
 
-## Anglais
+## French
 
-Experimenté (C2) (TOEIC 2013: 920/990)
+Maternal
 
-## Espagnol
+## English
 
-Niveau Intermédiaire
+Advanced (C2) (TOEIC 2013: 920/990)
 
-# INFORMATIQUE
+## Spanish
 
-## __Langages__
+Intermediate
+
+# COMPUTING SKILLS
+
+## __Languages__
 
 Python, Bash, C/C++, SQL, Ruby
 
-## __Outils__
+## __Tools__
 
 Git, Docker, Sphinx, Plantuml
 
@@ -114,14 +118,14 @@ Git, Docker, Sphinx, Plantuml
 
 Django, Bootstrap (JQuery)
 
-## __Logiciels__
+## __Softwares__
 
 Gimp, Inkscape, Audacity, Suite Adobe
 
 ## __DevOps__
 
-Déploiement continu, Apache, Kubernetes
+Continuous Deployment, Apache, Kubernetes
 
-## __Bureautique__
+## __Office softwares__
 
-LaTeX, C2I niveau 2mi (LibreOffice, Office)
+LaTeX, C2I 2mi (LibreOffice, Office)
