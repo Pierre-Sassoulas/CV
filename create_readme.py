@@ -124,12 +124,11 @@ if __name__ == "__main__":
     last_name = get_command_as_list(head, "familyname")[0]
     title = get_command_as_list(head, "title")[0]
     mail = get_command_as_list(head, "email")[0]
-    readme.write("# À PROPOS DE MOI\n")
-    readme.write(
-        """
+    readme.write("# ABOUT ME\n")
+    readme.write("""
 %s %s, %s
 
-## Pour me contacter
+## Contact me
 
 %s
 
