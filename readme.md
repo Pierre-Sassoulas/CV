@@ -18,11 +18,18 @@ pierre.sassoulas at gmail.com
 
 # EXPÉRIENCE PROFESSIONNELLE
 
+## Ingénieur informatique
+
+**__python__, __spring__, __javascript__** : Antidot, Lyon
+
+ Mise en place des standards et outils au sein d'une équipe nouvellement créée: revues de code, tests avec couverture, et déploiement continu. Conversion de format documentaire (Word, Framemaker, etc.) vers HTML. Évolution et amélioration d'une API interne pour la rendre utilisable par des intégrateurs externes.
+
+
 ## Consultant technique
 
 **__python__, __docker__, __C++__** : Antidot, Lyon
 
- Développement de modules spécifiques ; support de niveau 3 et gestion d'un pipeline de déploiement continue ; de la mise en place, au passage en production, d'une plateforme de documentation technique ou de solutions de recherches et de traitements documentaires spécifiques.
+ Développement de modules spécifiques ; support de niveau 3 et gestion d'une pipeline de déploiement continue d'une plateforme de documentation technique ou de solutions de recherches et de traitements documentaires.
 
 
 ## Ingénieur informatique
@@ -46,34 +53,27 @@ pierre.sassoulas at gmail.com
  Étude des besoins, réalisation et qualification selon la norme DO330 d'un logiciel calculant des métriques de qualité concernant le code et les artefacts de la norme DO178 pour les logiciels critiques de l'avionique.
 
 
-## Stage de spécialité
-
-**__python__, __web__** : Bull, Grenoble
-
- Réalisation d'un outil web de Quotation permettant de faciliter le choix des pièces lors de l'achat des composants d'un supercalculateur.
-
-
 # EXPÉRIENCE PERSONNELLE
+
+## Mainteneur
+
+**__Gestion__, __Freelance__** : Open-source, Github
+
+ Développement et gestion (Pull-requests, publications sur Pypi et offres de freelance) autour d'un module d'évaluation de la force de mots de passe, et d'une application web permettant de réaliser des sondages.
+
+
+## Membre
+
+**__python__, __Qualité__** : Python Code Quality Authority, Github
+
+ Contribution à l'évolution du logiciel \textbf{pylint}, un outil d'analyse statique de la qualité du code en python.
+
 
 ## Encadrant
 
 **__Pédagogie__** : Mixteen, Lyon
 
  Encadrement d'enfants lors d'ateliers permettant de découvrir l’informatique de façon ludique avec Scratch, Thymio, Pygame et Micro$:$bit en fonction de leur âge.
-
-
-## Mainteneur
-
-**__Gestion__, __Freelance__** : Open-source, Github
-
- Développement et gestion (Pull request, publication sur Pypi et offres de travail en freelance) autour d'un module d'évaluation de la force de mots de passe, d'une application web permettant de réaliser des sondages.
-
-
-## Contributeur
-
-**__python__, __Qualité__** : Python Code Quality Authority, Github
-
- Contribution à l'évolution du logiciel \textbf{pylint}, un outil d'analyse statique de la qualité du code en python.
 
 
 ## Factotum
