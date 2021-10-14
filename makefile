@@ -12,7 +12,7 @@ preinstall:
 	sudo apt-get install -y texlive-xetex texlive-bibtex-extra texlive-pstricks texlive-fonts-extra
 
 readme:
-	python create_readme.py CV_SASSOULAS_Pierre.tex
+	python3 create_readme.py CV_SASSOULAS_Pierre.tex
 
 clean:
 	rm -f *.aux *.cb *.cb2 *.log *.toc *.out

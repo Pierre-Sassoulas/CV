@@ -1,6 +1,6 @@
 # ABOUT ME
 
-Pierre  Sassoulas , Software engineer , Information Systems Architectures
+Pierre  Sassoulas , Technical Lead at EdF S\&F , Open-source maintainer
 
 ## Contact me
 
@@ -17,6 +17,13 @@ pierre.sassoulas at gmail.com
 
 
 # PROFESSIONAL EXPERIENCE
+
+## Technical lead
+
+**__python__, __training__, __green energy__** : EdF Store \& Forecast, Lyon
+
+ Within the Optimization \& Forecasting team, I set up packaging and an internal python package server, testing, automatic commit level checks through static analysis, continuous integration, dockerization, and continuous production deployment using ansible and kubernetes. I provide training on software topics and propose solutions for the harmonization, design, and maintainability of software products.
+
 
 ## Senior software engineer
 
@@ -55,25 +62,18 @@ pierre.sassoulas at gmail.com
 
 # PERSONAL EXPERIENCE
 
-## Supervisor
-
-**__Pedagogy__** : Mixteen, Lyon
-
- Supervising children during workshop permitting to discover computer science in a playful manner tools like Scratch, Thymio, Pygame and Micro$:$bit depending on their age.
-
-
 ## Maintener
-
-**__Management__, __Freelance__** : Open-source, Github
-
- Development, and community management (Github issues, pull request, Pypi publications and freelance offers) around a password strength validator, a survey's web application and a diagram's generating library.
-
-
-## Contributer
 
 **__python__, __Quality__** : Python Code Quality Authority, Github
 
- Contributed to the evolution of \textbf{pylint}, a code quality static analysis software for python.
+ Maintenance of \textbf{pylint}, one of the leading open-source static analysis software for python and one of the 250 most downloaded package on pypi.
+
+
+## Computer working group facilitator
+
+**__training__** : Mixteen, Lyon
+
+ Supervising children during workshop permitting to discover computer science in a playful manner tools like Scratch, Thymio, Pygame and Micro$:$bit depending on their age.
 
 
 ## Factotum
@@ -81,13 +81,6 @@ pierre.sassoulas at gmail.com
 **__Film making__** : Insa, Rouen
 
  In groups of 3 to 5, writing, filming, editing and promoting of a feminist comedy, an action film, a suspens film and a modern western as part of the ``Section Image Étude'' in INSA.
-
-
-## Developper
-
-**__C__, __LaTeX__** : Insa, Rouen
-
- Conception and development of the artificial intelligence of an othello software and of an othello tournament manager.
 
 
 # LANGUAGE
@@ -108,11 +101,11 @@ Intermediate
 
 ## __Languages__
 
-Python, Bash, C/C++, SQL, Ruby
+Python, Bash, C/C++, SQL, Lua, C\#
 
 ## __Tools__
 
-Git, Docker, Sphinx, Plantuml
+Git, Docker, pre-commit, Plantuml
 
 ## __Frameworks__
 
@@ -124,7 +117,7 @@ Gimp, Inkscape, Audacity, Suite Adobe
 
 ## __DevOps__
 
-Continuous Deployment, Apache, Kubernetes
+Continuous Deployment, Apache, Ansible, Kubernetes
 
 ## __Office softwares__
 
