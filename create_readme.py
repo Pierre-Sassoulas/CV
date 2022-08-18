@@ -18,7 +18,7 @@ def read_latex(file_):
                     document += line
                     break
         f.close()
-    #  Replacing all \t and \n and shit by space
+    # Replacing all \t and \n and shit by space
     document = " ".join(document.split())
     # Removing all space before {
     final_result = document.replace(" {", "{")
