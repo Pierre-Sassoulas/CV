@@ -5,7 +5,7 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.4.1
+    rev: v3.4.2
     hooks:
       - id: prettier
         args: [--prose-wrap=always, --print-width=88]
