@@ -1,6 +1,7 @@
 # ABOUT ME
 
-Pierre Sassoulas , Technical Lead at EdF S\&F , Open-source maintainer
+Pierre Sassoulas , DevOps Team Lead at Elum Energy \texorpdfstring{ \_\_( Open-source
+maintainer
 
 ## Contact me
 
@@ -8,37 +9,58 @@ pierre.sassoulas at gmail.com
 
 # EDUCATION
 
-## Engineering student
+## Master's Degree in Engineering
 
-**2009 - 2015** : INSA de Rouen, Information Systems Architectures (ASI)
+**2009 - 2015** : INSA de Rouen, 3 years CS/IT specialization following 2 years of
+generalist studies
 
 # PROFESSIONAL EXPERIENCE
 
+## DevOps Team Lead
+
+\***\*management\*\*** : Elum Energy, Remote
+
+Expanded role beyond DevOps engineering to include team management, organization, and
+annual performance evaluations.
+
+## DevOps Engineer
+
+\***\*SRE**, **Orchestration\*\*** : Elum Energy, Remote
+
+Deliver training and design and implement practices and tools that accelerate our
+ability to deliver products at scale, from automated hardware provisioning to remote
+fleet management and monitoring of our energy management systems (EMS). Manage our
+in-house infrastructure (on-premises and in Scaleway/GCP/AWS), and provide L3 support by
+troubleshooting complex issues that go beyond the scope of our support team.
+
+## Freelance
+
+\***\*Business ownership\*\*** : Self employed, Remote
+
+Deliver technical expertise and advisory services to corporate and academic partners
+(e.g., Yale, MIT, Tidelift, and others under NDA) in the context of my maintained
+open-source repositories, encompassing feature implementation, giving supply chain
+security guarantees, and AI output evaluation.
+
 ## Technical lead
 
-\***\*python**, **training**, **green energy\*\*** : EdF Store \& Forecast, Lyon
+\***\*mentorship**, **change management\*\*** : EdF Store \& Forecast, Lyon
 
-Within the Optimization \& Forecasting team, I set up packaging and an internal python
+Within the Optimization \& Forecasting team, setting up packaging and an internal python
 package server, testing, automatic commit level checks through static analysis,
 continuous integration, dockerization, and continuous production deployment using
-ansible and kubernetes. I provide training on software topics and propose solutions for
+ansible and kubernetes. Provided training on software topics and proposed solutions for
 the harmonization, design, and maintainability of software products.
 
-## Senior software engineer
+## Technical Consultant / Software engineer
 
-\***\*python**, **spring**, **javascript\*\*** : Antidot, Lyon
-
-Implementation of standards and tools within a newly created team: code reviews,
-coverage testing, and continuous deployment. Converted document formats (Word,
-Framemaker, etc.) to HTML. Evolved and improved an internal API to make it usable by
-external integrators.
-
-## Technical Consultant
-
-\***\*python**, **docker**, **C++\*\*** : Antidot, Lyon
+\***\*client-focus**, **pragmatism\*\*** : Antidot, Lyon
 
 Development of specific modules; level 3 support and management of a deployment pipeline
 of a technical documentation platform or document search and processing solutions.
+Implementation of standards and tools within a newly created team. Converted document
+formats (Word, Framemaker, etc.) to HTML. Made an internal API usable by external
+integrators.
 
 ## Software engineer
 
@@ -55,29 +77,22 @@ web interface.
 Study and implementation of a database cluster and its web interface in order to store,
 display and analyse a wide variety of data flux stemming from sensors.
 
-## Software Engineering Intern
-
-\***\*ruby**, **XML**, **DO178\*\*** : Thales Avionics SAS, Valence (France)
-
-Specification, conception, development, and qualification according to the DO330 norm of
-a quality tool for avionics software development.
-
 # PERSONAL EXPERIENCE
 
 ## Maintener
 
-\***\*python**, **Quality\*\*** : Python Code Quality Authority, Github
+\***\*conflict resolution\*\*** : Open-source, GitHub
 
-Maintenance of \textbf{pylint}, one of the leading open-source static analysis software
-for python and one of the 250 most downloaded package on pypi.
+Core maintener of \textbf{pylint}, \textbf{prospector}, \textbf{pytest}, three of the
+250 most downloaded python packages on pypi.
 
 ## Computer working group facilitator
 
-\***\*training\*\*** : Mixteen, Lyon
+\***\*mentorship**, **pedagogy\*\*** : Mixteen, Lyon
 
 Supervising children during workshop permitting to discover computer science in a
 playful manner tools like Scratch, Thymio, Pygame and Micro$:$bit depending on their
-age.
+age, at conferences like Mixit or pyconfr.
 
 ## Factotum
 
@@ -100,29 +115,3 @@ Advanced (C2) (TOEIC 2013: 920/990)
 ## Spanish
 
 Intermediate
-
-# COMPUTING SKILLS
-
-## **Languages**
-
-Python, Bash, C/C++, SQL, Lua, C\#
-
-## **Tools**
-
-Git, Docker, pre-commit, Plantuml
-
-## **Frameworks**
-
-Django, Bootstrap (JQuery)
-
-## **Softwares**
-
-Gimp, Inkscape, Audacity, Suite Adobe
-
-## **DevOps**
-
-Continuous Deployment, Apache, Ansible, Kubernetes
-
-## **Office softwares**
-
-LaTeX, C2I 2mi (LibreOffice, Office)
