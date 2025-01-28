@@ -1,6 +1,7 @@
 # ABOUT ME
 
-Pierre Sassoulas , Technical Lead at EdF S\&F , Open-source maintainer
+Pierre Sassoulas , DevOps Team Lead at Elum Energy \texorpdfstring{ \_\_( Open-source
+maintainer
 
 ## Contact me
 
@@ -8,15 +9,38 @@ pierre.sassoulas at gmail.com
 
 # EDUCATION
 
-## Engineering student
+## Master's Degree in Engineering
 
-**2009 - 2015** : INSA de Rouen, Information Systems Architectures (ASI)
+**2009 - 2015** : INSA de Rouen, 3 years CS/IT specialization following 2 years of
+generalist studies
 
 # PROFESSIONAL EXPERIENCE
 
+## DevOps Team Lead
+
+\***\*management\*\*** : Elum Energy, Remote
+
+I'm doing annual review and organizing the team on top of what I was already doing as a
+Devops engineer.
+
+## DevOps Engineer
+
+\***\*SaltStack**, **devops\*\*** : Elum Energy, Remote
+
+I'm helping to put practices and tools into place that will increases our ability to
+deliver our products rapidly and at scale. I also provide training, develop on both
+internal tools and the actual products, and help deploy the code into production.
+
+## Freelance
+
+\***\*Business ownership\*\*** : Self employed, Remote
+
+I'm providing services to companies around the open-source repositories I maintain by
+adding features or guaranteeing that there will not be any security issues.
+
 ## Technical lead
 
-\***\*python**, **training**, **green energy\*\*** : EdF Store \& Forecast, Lyon
+\***\*mentorship**, **change management\*\*** : EdF Store \& Forecast, Lyon
 
 Within the Optimization \& Forecasting team, I set up packaging and an internal python
 package server, testing, automatic commit level checks through static analysis,
@@ -24,21 +48,15 @@ continuous integration, dockerization, and continuous production deployment usin
 ansible and kubernetes. I provide training on software topics and propose solutions for
 the harmonization, design, and maintainability of software products.
 
-## Senior software engineer
+## Technical Consultant / Software engineer
 
-\***\*python**, **spring**, **javascript\*\*** : Antidot, Lyon
-
-Implementation of standards and tools within a newly created team: code reviews,
-coverage testing, and continuous deployment. Converted document formats (Word,
-Framemaker, etc.) to HTML. Evolved and improved an internal API to make it usable by
-external integrators.
-
-## Technical Consultant
-
-\***\*python**, **docker**, **C++\*\*** : Antidot, Lyon
+\***\*client-focus**, **pragmatism\*\*** : Antidot, Lyon
 
 Development of specific modules; level 3 support and management of a deployment pipeline
 of a technical documentation platform or document search and processing solutions.
+Implementation of standards and tools within a newly created team. Converted document
+formats (Word, Framemaker, etc.) to HTML. Made an internal API usable by external
+integrators.
 
 ## Software engineer
 
@@ -55,25 +73,18 @@ web interface.
 Study and implementation of a database cluster and its web interface in order to store,
 display and analyse a wide variety of data flux stemming from sensors.
 
-## Software Engineering Intern
-
-\***\*ruby**, **XML**, **DO178\*\*** : Thales Avionics SAS, Valence (France)
-
-Specification, conception, development, and qualification according to the DO330 norm of
-a quality tool for avionics software development.
-
 # PERSONAL EXPERIENCE
 
 ## Maintener
 
-\***\*python**, **Quality\*\*** : Python Code Quality Authority, Github
+\***\*conflict resolution\*\*** : Open-source, Github
 
-Maintenance of \textbf{pylint}, one of the leading open-source static analysis software
-for python and one of the 250 most downloaded package on pypi.
+Core maintener of \textbf{pylint}, \textbf{prospector}, \textbf{pytest}, three of the
+250 most downloaded packages on pypi.
 
 ## Computer working group facilitator
 
-\***\*training\*\*** : Mixteen, Lyon
+\***\*mentorship**, **pedagogy\*\*** : Mixteen, Lyon
 
 Supervising children during workshop permitting to discover computer science in a
 playful manner tools like Scratch, Thymio, Pygame and Micro$:$bit depending on their
@@ -100,29 +111,3 @@ Advanced (C2) (TOEIC 2013: 920/990)
 ## Spanish
 
 Intermediate
-
-# COMPUTING SKILLS
-
-## **Languages**
-
-Python, Bash, C/C++, SQL, Lua, C\#
-
-## **Tools**
-
-Git, Docker, pre-commit, Plantuml
-
-## **Frameworks**
-
-Django, Bootstrap (JQuery)
-
-## **Softwares**
-
-Gimp, Inkscape, Audacity, Suite Adobe
-
-## **DevOps**
-
-Continuous Deployment, Apache, Ansible, Kubernetes
-
-## **Office softwares**
-
-LaTeX, C2I 2mi (LibreOffice, Office)
