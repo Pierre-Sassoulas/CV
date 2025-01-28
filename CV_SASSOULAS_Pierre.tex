@@ -10,18 +10,16 @@
 \usepackage[T1]{fontenc}
 \usepackage{multibib}
 \usepackage{pstricks}
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 \usepackage{multido}
 \SpecialCoor
-\makeatletter
-\def\LoadPSVars{\pstVerb{/ptcm {\pst@number\psunit div} bind def}}
-\makeatother
-\def\points{}
-\def\Star{%
+\newcommand{\LoadPSVars}{\pstVerb{/ptcm {\pst@number\psunit div} bind def}}
+\newcommand{\points}{}
+\newcommand{\Star}{%
     \xdef\points{}% cleaning
     \multido{\iR=0+72,\ir=36+72}{5}{\xdef\points{\points (10pt;\iR)(5pt;\ir)}}
     \expandafter\pspolygon\points}
-\def\Rating#1{% #1: percentage
+\newcommand{\Rating}[1]{% #1: percentage
     \psscalebox{0.35}{%
     \begin{pspicture}(11pt,-11pt)(25pt,11pt)
     \LoadPSVars
@@ -44,24 +42,23 @@
   pierre.sassoulas at gmail.com
 }
 \social[github]{pierre-sassoulas}
-\input{address.tex}
-\input{mobile_phone.tex}
+\input{address}
+\input{mobile_phone}
 % \phone{}
 \extrainfo{
   Current Clean Driving Licence
 } % \\ et du CACES nacelle}
 % CACES Valide uniquement entre 2008 et 2013 (Valable 5 ans)
 %\photo[92pt][0.4pt]{picture.jpg}
-\makeatletter
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-\makeatother
 \newcites{book,misc}{{Books},{Others}}
 \nopagenumbers{}
 
 \begin{document}
   \maketitle
   \vspace*{-5mm}
-  \section{EDUCATION}
+
+  \section{EDUCATION}\label{sec:education}
 
   \cventry
     {2009 - 2015}
@@ -225,9 +222,9 @@
 %      tournoi UNSS départemental de handball.
 %    }
 
-  \section{PERSONAL EXPERIENCE}
+  \section{PERSONAL EXPERIENCE}\label{sec:personal-experience}
 
-    \cventry
+  \cventry
     {\textbf{python}, \textbf{Quality}}
     {Maintener}
     {Python Code Quality Authority}
@@ -323,7 +320,7 @@
 %      with an adaptative automatic scenario.
 %    }{}{}
 
-  \section{LANGUAGE}
+  \section{LANGUAGE}\label{sec:language}
 
   \cvlanguage
     {French}
@@ -339,7 +336,7 @@
     {Intermediate}
     {}{}{}{}
 
-  \section{COMPUTING SKILLS}
+  \section{COMPUTING SKILLS}\label{sec:computing-skills}
 
   \cvcomputer
     {\textbf{Languages}}
