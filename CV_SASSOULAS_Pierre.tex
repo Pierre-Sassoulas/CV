@@ -6,28 +6,12 @@
 % 'purple', 'grey' and 'black'
 \usepackage[top=1cm, bottom=1cm, left=1cm, right=1cm]{geometry}
 \usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{multibib}
-\usepackage{pstricks}
 \usepackage{fontawesome5}
 \usepackage{multido}
-\SpecialCoor
-\newcommand{\LoadPSVars}{\pstVerb{/ptcm {\pst@number\psunit div} bind def}}
-\newcommand{\points}{}
-\newcommand{\Star}{%
-    \xdef\points{}% cleaning
-    \multido{\iR=0+72,\ir=36+72}{5}{\xdef\points{\points (10pt;\iR)(5pt;\ir)}}
-    \expandafter\pspolygon\points}
-\newcommand{\Rating}[1]{% #1: percentage
-    \psscalebox{0.35}{%
-    \begin{pspicture}(11pt,-11pt)(25pt,11pt)
-    \LoadPSVars
-    \psclip{\pscustom{\translate(20pt,0)\Star}}
-        \psframe*[linecolor=yellow](11pt,-11pt)(!#1 11 add ptcm 11 ptcm)
-    \endpsclip
-    \pscustom{\translate(20pt,0)\Star}
-    \end{pspicture}}}
+
 \firstname{
   Pierre
 }
@@ -41,30 +25,104 @@
   pierre.sassoulas at gmail.com
 }
 \social[github]{pierre-sassoulas}
+\social[linkedin]{pierresassoulas}
 
-\social[linkedin]{Pierre Sassoulas}
 \input{address}
 \input{mobile_phone}
-% \phone{}
+
 %\extrainfo{
 %  Current Clean Driving Licence
 %} % \\ et du CACES nacelle}
 % CACES Valide uniquement entre 2008 et 2013 (Valable 5 ans)
+
 %\photo[92pt][0.4pt]{picture.jpg}
-\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-\newcites{book,misc}{{Books},{Others}}
+
 \nopagenumbers{}
 
 \begin{document}
   \maketitle
-  \vspace*{-5mm}
+  \vspace*{-3mm}
+
+  \section{PROFESSIONAL SUMMARY}\label{sec:summary}
+  \cvline{}{
+      Software engineer with a generalist scientific background with 10+ years of professional experience in web
+      development and DevOps (often in startups), and open-source leadership. Extensive background in full-stack
+      development, site reliability engineering, solar energy, and mentoring. Core maintainer of Pylint and Pytest,
+      two packages used respectively by 15\% and 50\% of python developers (according to JetBrain's survey).
+  }
+
+  \vspace{5mm}
+
+  \section{KEY PROFESSIONAL EXPERIENCE}
+  \label{sec:key-professional-experience}
+
+  \cventry
+    {\textbf{SRE} \textbf{management} \textbf{Orchestration}}
+    {DevOps Engineer => DevOps Team Lead}
+    {Elum Energy}
+    {Remote}
+    {September 2022 - present}{
+    \begin{itemize}
+        \item \textbf{DevOps Team Lead (February 2025 - present):} Expanded role beyond DevOps engineering to include team management,
+        organization, and annual performance evaluations.
+        \item \textbf{DevOps Engineer (September 2022 - January 2025):}  Delivered training, designed tools,
+            and implemented practices that accelerate our ability to deliver products at scale, from
+            automated hardware provisioning to remote fleet management, and monitoring of our energy management
+		    systems (EMS). Manage our in-house infrastructure (on-premises and in Scaleway/GCP/AWS),
+            and provide L3 support by troubleshooting complex issues that go beyond the scope of our support team.
+    \end{itemize}
+    }
+
+    \cventry
+    {\textbf{Product management}}
+    {Core Maintainer}
+    {Open-source}
+    {GitHub}
+    {November 2016 - present}{
+      \begin{itemize}
+          \item \textbf{pytest (December 2022 - present):} Testing framework for Python, used by 50\% of Python developers.
+          \item \textbf{prospector (August 2021 - present):} Code quality tool for Python, integrating multiple analysis tools, with
+            400k+ installations per month from Pypi.
+          \item \textbf{pylint (November 2016 - present):} Static code analysis tool based on the python ast
+            rebuilt and augmented in \textbf{astroid}, used by 15\% of Python developers.
+      \end{itemize}
+    }
+
+    \cventry
+    {\textbf{Business ownership}}
+    {Freelance}
+    {Self employed}
+    {Remote}
+    {January 2020 - present}{
+        Deliver technical expertise and advisory services to corporate and academic partners
+        (e.g., Yale, MIT, Tidelift, and others under NDA) in the context of my maintained
+        open-source repositories, encompassing feature implementation, giving supply chain
+        security guarantees, and AI output evaluation.
+    }
+
+  \cventry
+    {\textbf{mentorship} \textbf{change management}}
+    {Technical Lead}
+    {EdF Store \& Forecast}
+    {Lyon}
+    {July 2020 - February 2022}{
+      Within the 15 persons optimization \& Forecasting team, setting up packaging and an
+      internal python package server, testing, automatic commit level checks
+      through static analysis, continuous integration, dockerization, and
+      continuous production deployment using ansible and kubernetes. Provided
+      training on software topics and proposed solutions for the harmonization,
+      design, and maintainability of software products.
+    }
+
+  \vspace{5mm}
 
   \section{EDUCATION}\label{sec:education}
   \cventry
     {2009 - 2015}
     {Master's Degree in Engineering}
     {INSA de Rouen}
-    {3 years CS/IT specialization following 2 years of generalist studies}
+    {3 years CS/IT specialization following 2 years of generalist studies
+        (math, physics, chemistry, mechanics, electronics, communication)}
 	{}{}
 
 %  \cventry
@@ -81,65 +139,52 @@
 %    {CEFTIC de Pierrelatte}
 %    {}{}{}
 
-  \section{PROFESSIONAL EXPERIENCE}
-  \label{sec:professional-experience}
+    \section{LANGUAGE}\label{sec:language}
+
+  \cvlanguage
+    {French}
+    {Native}{}{}{}{}
+
+  \cvlanguage
+    {English}
+    {Advanced (C2) (TOEIC 2013: 920/990)}
+    {Volunteer translator for Ubuntu, Jenkins and FlossManual}
+
+  \cvlanguage
+    {Spanish}
+    {Intermediate}
+    {}{}{}{}
+
+  \section{COMPUTING SKILLS}\label{sec:computing-skills}
+
+  \cvcomputer
+    {\textbf{Languages}}
+    {Python, Bash, C/C++, SQL, Lua, C\#}
+    {\textbf{Tools}}
+    {Git, Docker, pre-commit, Sphinx, Plantuml}
+
+  \cvcomputer
+    {\textbf{Frameworks}}
+    {Django, Bootstrap, Slack SDK, Unity}
+    {\textbf{Software}}
+    {Gimp, Inkscape, Audacity, Adobe Suite}
+
+  \cvcomputer
+    {\textbf{DevOps}}
+    {Continuous Deployment, Apache, Ansible, Kubernetes, SaltStack}
+    {\textbf{Office software}}
+    {\LaTeX{}, C2I 2mi (LibreOffice, Office)}
+
+  \newpage
+
+    \section{COMPLETE PROFESSIONAL HISTORY}\label{sec:complete-professional-history}
 
   \cventry
-    { \textbf{management}}
-    {DevOps Team Lead}
-    {Elum Energy}
-    {Remote}
-    {February 2025 to today}{
-        Expanded role beyond DevOps engineering to include team management,
-        organization, and annual performance evaluations.
-    }
-
-    \cventry
-    { \textbf{SRE}, \textbf{Orchestration}}
-    {DevOps Engineer}
-    {Elum Energy}
-    {Remote}
-    {September 2022 to January 2025}{
-        Deliver training and design and implement practices and tools that accelerate our
-        ability to deliver products at scale, from automated hardware provisioning to
-        remote fleet management and monitoring of our energy management systems (EMS).
-        Manage our in-house infrastructure (on-premises and in Scaleway/GCP/AWS),
-        and provide L3 support by troubleshooting complex issues that go beyond the
-        scope of our support team.
-    }
-
-    \cventry
-    {\textbf{Business ownership}}
-    {Freelance}
-    {Self employed}
-    {Remote}
-    {January 2020 to today}{
-        Deliver technical expertise and advisory services to corporate and academic partners
-        (e.g., Yale, MIT, Tidelift, and others under NDA) in the context of my maintained
-        open-source repositories, encompassing feature implementation, giving supply chain
-        security guarantees, and AI output evaluation.
-    }
-
-  \cventry
-    {\textbf{mentorship}, \textbf{change management}}
-    {Technical lead}
-    {EdF Store \& Forecast}
-    {Lyon}
-    {July 2020 to February 2022}{
-      Within the Optimization \& Forecasting team, setting up packaging and an
-      internal python package server, testing, automatic commit level checks
-      through static analysis, continuous integration, dockerization, and
-      continuous production deployment using ansible and kubernetes. Provided
-      training on software topics and proposed solutions for the harmonization,
-      design, and maintainability of software products.
-    }
-
-  \cventry
-    {\textbf{client-focus}, \textbf{pragmatism}}
-    {Technical Consultant / Software engineer}
+    {\textbf{client-focus} \textbf{pragmatism}}
+    {Technical Consultant / Software Engineer}
     {Antidot}
     {Lyon}
-    {September 2018 to July 2020}{
+    {September 2018 - July 2020}{
         Development of specific modules; level 3 support and management of a deployment pipeline
         of a technical documentation platform or document search and processing solutions. Implementation
         of standards and tools within a newly created team. Converted document
@@ -147,19 +192,19 @@
     }
 
   \cventry
-    {\textbf{C++}, \textbf{docker}, \textbf{python}}
-    {Software engineer}
+    {\textbf{C++} \textbf{docker} \textbf{python}}
+    {Software Engineer}
     {WiseBim}
     {Remote work}
-    {January 2018 to July 2018}{
+    {January 2018 - July 2018}{
       Set up of a SAAS architecture allowing to automatically generate 3D
 	  building information modeling (BIM) based on architectural 2D plans in
 	  a secure and reliable manner through a web interface.
     }
 
   \cventry
-    {\textbf{big data}, \textbf{python}, \textbf{C++}}
-    {Research engineer}
+    {\textbf{big data} \textbf{python} \textbf{C++}}
+    {Research Engineer}
     {CEA/INES}
     {Chambéry}
     {June 2016 to December 2017 (Fixed contract)}{
@@ -168,47 +213,47 @@
       from sensors.
     }
 
-%  \cventry
-%    {\textbf{ruby}, \\ \textbf{XML}, \textbf{DO178}}
-%    {Software Engineering Intern}
-%    {Thales Avionics SAS}
-%    {Valence (France)}
-%    {6 months}{
-%      Specification, conception,  development, and qualification according to
-%      the DO330 norm of a quality tool for avionics software development.
-%    }
+  \cventry
+    {\textbf{ruby} \\ \textbf{XML} \textbf{DO178}}
+    {Software Engineering Intern}
+    {Thales Avionics SAS}
+    {Valence (France)}
+    {6 months}{
+      Specification, design, development, and qualification according to
+      the DO330 norm of a quality tool for avionics software development.
+    }
 
-%  \cventry
-%    {\textbf{python}, \textbf{SQL}, \textbf{web}}
-%    {Project leader and developer}
-%    {A2IA, INSA}
-%    {Rouen}
-%    {2 semesters }{
-%      Project management and development of a tool managing big volume of
-%      metadata for character recognition. During 25 hours a week in a group of
-%      15 INSA students following the ISO9001:2008 norm.
-%    }
+  \cventry
+    {\textbf{python} \textbf{SQL} \textbf{web}}
+    {Project leader and developer}
+    {A2IA, INSA}
+    {Rouen}
+    {2 semesters }{
+      Project management and development of a tool managing big volume of
+      metadata for character recognition. During 25 hours a week in a group of
+      15 INSA students following the ISO9001:2008 norm.
+    }
 
-%  \cventry
-%    {\textbf{python}, \textbf{SOAP}, \textbf{Quality}}
-%    {Developer}
-%    {Dynamease, INSA}
-%    {Rouen}
-%    {1 semester }{
-%       Development of an openERP module for phone call management. During
-%       25 hours a week in a group of 7 INSA students respecting the
-%       ISO9001:2008 norm.
-%    }
+  \cventry
+    {\textbf{python} \textbf{SOAP} \textbf{Quality}}
+    {Developer}
+    {Dynamease, INSA}
+    {Rouen}
+    {1 semester }{
+       Development of an openERP module for phone call management. During
+       25 hours a week in a group of 7 INSA students respecting the
+       ISO9001:2008 norm.
+    }
 
-%  \cventry
-%    {\textbf{python}, \textbf{web}}
-%    {Software Engineering Intern}
-%    {Bull}
-%    {Grenoble}
-%    {3 months}{
-%      Development of a quotation tool easing the choice and buying procedure
-%      of supercomputer parts.
-%    }
+  \cventry
+    {\textbf{python} \textbf{web}}
+    {Software Engineering Intern}
+    {Bull}
+    {Grenoble}
+    {3 months}{
+      Development of a quotation tool easing the choice and buying procedure
+      of supercomputer parts.
+    }
 
 %  \cventry
 %    {\textbf{monde du travail}}
@@ -231,13 +276,13 @@
 %    }
 
 %  \cventry
-%    {\textbf{HTML} \textbf{CSS} \textbf{javascript}}
-%    {}
-%    {Collège Europa}
+%    {\textbf{HTML} \textbf{css} \textbf{js}}
+%    {Middle school student}
+%    {Middle school}
 %    {Montélimar}
-%    {8 mois}{
-%      Création et maintenance de sites en HTML dont l'intranet et le site
-%      internet du collège Europa
+%    {October 2004 - June 2005}{
+%        Creating and maintaining HTML websites including the intranet and the
+%        internet site of my middle school.
 %    }
 
 %  \cventry
@@ -250,45 +295,57 @@
 %      tournoi UNSS départemental de handball.
 %    }
 
-  \section{PERSONAL EXPERIENCE}\label{sec:personal-experience}
+  \vspace{5mm}
 
-  \cventry
-    {\textbf{conflict resolution}}
-    {Maintener}
-    {Open-source}
-    {GitHub}
-    {November 2016  to today}{
-      Core maintener of \textbf{pylint}, \textbf{prospector}, \textbf{pytest},
-      three of the 250 most downloaded python packages on pypi.
-    }
+  \section{PERSONAL PROJECTS \& COMMUNITY}\label{sec:personal-experience}
 
     \cventry
     {\textbf{mentorship}, \textbf{pedagogy}}
     {Computer working group facilitator}
     {Mixteen}
     {Lyon}
-    {May 2019 to today}{
-	  Supervising children during workshop permitting to discover computer science in a
-	  playful manner tools like Scratch, Thymio, Pygame and Micro$:$bit depending on their age,
+    {May 2019 - present}{
+	  Supervising children during workshop that allow children to discover computer science in a
+	  playful manner with tools like Scratch, Thymio, Pygame and Micro$:$bit depending on their age,
       at conferences like Mixit or pyconfr.
     }
 
-%    \cventry
-%    {\textbf{Management}, \textbf{Freelance}}
-%    {Maintener}
-%    {Open-source}
-%    {Github}
-%    {March 2017  to today}{
-%      Development, and community management (Github issues, pull request, Pypi publications and freelance offers)
-%	  around a password strength validator, a survey's web application and a diagram's generating library.
-%    }
+    \cventry
+    {\textbf{open-source}}
+    {Author or Maintainer}
+    {Open-source}
+    {GitHub / Wikipedia}
+    {March 2006 - present}{
+          \begin{itemize}
+%          \item \textbf{pydocstringformatter (December 2022 - present):} Tool to autoformat python docstrings,
+%            with 15k+ installation per month from Pypi.
+          \item \textbf{grey-handling (August 2019 - present):} World of Warcraft addon
+            to manage grey items with group communications, with 10k+ installation from CurseForge.
+          \item \textbf{django-zxcvbn-password-validator (June 2018 - present):} Translated Django password
+            validator based on Dropbox's zxcvbn library, with 75k+ installation per month from Pypi.
+          \item \textbf{pySankeybeta (October 2017 - present):} Library to generate Sankey diagrams, with
+            2k+ installation per month from Pypi (1k+ coming from django-survey-and-report).
+          \item \textbf{django-survey-and-report (June 2017 - present):} Survey app for Django,
+            allowing to easily create and manage surveys, with 1k+ installation per month from Pypi.
+          \item \textbf{possum (January 2011 - August 2016):} A point of sales for bar used by 20 bar owner in the
+            Rouen region until a stricter point of sale legislation killed the project in 2018.
+%          \item \textbf{Wikipedia (March 2006 - present):} Contributed to various niche topics.
+      \end{itemize}
+    }
+
+      \cvline
+    {\textbf{game design}}
+    {
+      Design, development and team coordination around a 3D chess game with a twist in the historical
+      setting of the French revolution named \href{https://discord.gg/jSZGdWYXHY}{Revenge of the Pawns \faDiscord} (in progress).
+    }{}{}
 
     \cventry
     {\textbf{Film making}}
     {Factotum}
     {Insa}
     {Rouen}
-    {February 2010 to June 2014}{
+    {February 2010 - June 2014}{
       In groups of 3 to 5, writing, filming, editing and promoting of a
       feminist comedy, an action film, a suspens film and a modern western as
       part of the ``Section Image Étude'' in INSA.
@@ -298,89 +355,28 @@
 %    {\textbf{python}, \textbf{web}}
 %    {
 %      Refactoring of INSA's ``Mission qualité'' website
-%      (permitting to realiser statistics and survey about the satisfaction of
-%      student and personels each semester).
+%      (permitting to realize statistics and survey about the satisfaction of
+%      student and employees each semester).
 %    }{}{}
 
-%  \cvline
-%    {\textbf{python}, \textbf{web}}
-%    {
-%      Reconception de l'architecture et ajout de fonctionalité sur un logiciel
-%      libre de gestion de bar (POSSUM).
-%    }{}{}
+  \cvline
+    {\textbf{electronic}, \textbf{arduino}}
+    {
+      Design and development of an arduino controlled wood cube allowing
+      to play tic tac toe with an integrated keyboard and 9 tricolored LEDs.
+    }{}{}
 
-%  \cvline
-%    {\textbf{electronic}, \textbf{arduino}}
-%    {
-%      Conception and development of an arduino controled wood cube allowing
-%      to play tic tac toe with an integrated keyboard and 9 tricolored LEDs.
-%    }{}{}
+    \cvline
+    {\textbf{C}, \textbf{\LaTeX{}}}{
+      Design and development of the artificial intelligence of an othello
+      software and of an othello tournament manager.
+    }
 
-%    \cventry
-%    {\textbf{C}, \textbf{\LaTeX{}}}
-%	{Developper}
-%    {Insa}
-%    {Rouen}
-%    {September 2011 to June 2012}{
-%      Conception and development of the artificial intelligence of an othello
-%      software and of an othello tournament manager.
-%    }
-
-%  \cvline
-%    {\textbf{C++}, \textbf{matlab}}
-%    {
-%      Conception and development of a profiling module for the free software
-%      Teeworld.
-%    }{}{}
-
-%  \cvline
-%    {\textbf{java}, \textbf{IHM}}
-%    {
-%      Conception and development of an assisted musical software allowing to
-%      intuitively compose musical pieces (Miraaz).
-%    }{}{}
-
-%  \cvline
-%    {\textbf{java}, \textbf{IHM}}
-%    {
-%      Conception and development of a 2D graphical interface for a small RPG
-%      with an adaptative automatic scenario.
-%    }{}{}
-
-  \section{LANGUAGE}\label{sec:language}
-
-  \cvlanguage
-    {French}
-    {Maternal}{}{}{}{}
-
-  \cvlanguage
-    {English}
-    {Advanced (C2) (TOEIC 2013: 920/990)}
-    {Volunteer translator for Ubuntu, Jenkins and FlossManual}
-
-  \cvlanguage
-    {Spanish}
-    {Intermediate}
-    {}{}{}{}
-
-%  \section{COMPUTING SKILLS}\label{sec:computing-skills}
-%
-%  \cvcomputer
-%    {\textbf{Languages}}
-%    {Python, Bash, C/C++, SQL, Lua, C\#}
-%    {\textbf{Tools}}
-%    {Git, Docker, pre-commit, Plantuml}
-%
-%  \cvcomputer
-%    {\textbf{Frameworks}}
-%    {Django, Bootstrap (JQuery)}
-%    {\textbf{Software}}
-%    {Gimp, Inkscape, Audacity, Suite Adobe}
-%
-%  \cvcomputer
-%    {\textbf{DevOps}}
-%    {Continuous Deployment, Apache, Ansible, Kubernetes}
-%    {\textbf{Office software}}
-%    {\LaTeX{}, C2I 2mi (LibreOffice, Office)}
+  \cvline
+    {\textbf{C++}, \textbf{matlab}}
+    {
+      Design and development of a profiling module for the free software
+      Teeworld.
+    }{}{}
 
 \end{document}

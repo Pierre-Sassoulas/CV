@@ -1,5 +1,4 @@
 all: CV readme
-	git add CV*.pdf
 	git add readme.md
 
 CV:
