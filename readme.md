@@ -1,7 +1,6 @@
 # ABOUT ME
 
-Pierre Sassoulas , DevOps Team Lead at Elum Energy \texorpdfstring{ \_\_( Open-source
-maintainer
+Pierre Sassoulas , Software engineer, Open-source maintainer
 
 ## Contact me
 
