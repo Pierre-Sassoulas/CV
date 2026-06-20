@@ -13,9 +13,9 @@ pierre.sassoulas at gmail.com
 Software engineer with a generalist scientific background with 10+ years of professional
 experience in web development and DevOps (often in startups), and open-source
 leadership. Extensive background in full-stack development, site reliability
-engineering, solar energy, and mentoring. Core maintainer of Pylint and Pytest, two
-packages used respectively by 15\% and 50\% of python developers (according to
-JetBrain's survey).
+engineering, solar energy, and mentoring. Core maintainer of pylint, a static analysis
+tool, and pytest, a test framework, two packages used respectively by 15\% and 50\% of
+Python developers (according to JetBrains' survey).
 
 # KEY PROFESSIONAL EXPERIENCE
 
@@ -38,11 +38,12 @@ troubleshooting complex issues that go beyond the scope of our support team.
 \***\*Product management\*\*** : Open-source, GitHub
 
 \begin{itemize} \item \textbf{pytest (December 2022 - present):} Testing framework for
-Python, used by 50\% of Python developers. \item \textbf{prospector (August 2021 -
-present):} Code quality tool for Python, integrating multiple analysis tools, with 400k+
-installations per month from Pypi. \item \textbf{pylint (November 2016 - present):}
-Static code analysis tool based on the python ast rebuilt and augmented in
-\textbf{astroid}, used by 15\% of Python developers. \end{itemize}
+Python, used by 50\% of Python developers (according to JetBrains' survey). \item
+\textbf{prospector (August 2021 - present):} Code quality tool for Python, integrating
+multiple analysis tools, with 400k+ installations per month from PyPI. \item
+\textbf{pylint (November 2016 - present):} Static code analysis tool based on the Python
+ast rebuilt and augmented in \textbf{astroid}, used by 15\% of Python developers
+(according to JetBrains' survey). \end{itemize}
 
 ## Freelance
 
@@ -57,8 +58,8 @@ security guarantees, and AI output evaluation.
 
 \***\*mentorship** **change management\*\*** : EdF Store \& Forecast, Lyon
 
-Within the 15 persons optimization \& Forecasting team, setting up packaging and an
-internal python package server, testing, automatic commit level checks through static
+Within the 15-person Optimization \& Forecasting team, setting up packaging and an
+internal Python package server, testing, automatic commit level checks through static
 analysis, continuous integration, dockerization, and continuous production deployment
 using ansible and kubernetes. Provided training on software topics and proposed
 solutions for the harmonization, design, and maintainability of software products.
@@ -172,9 +173,9 @@ parts.
 
 \***\*mentorship**, **pedagogy\*\*** : Mixteen, Lyon
 
-Supervising children during workshop that allow children to discover computer science in
-a playful manner with tools like Scratch, Thymio, Pygame and Micro$:$bit depending on
-their age, at conferences like Mixit or pyconfr.
+Supervising workshops that let children discover computer science in a playful manner
+with tools like Scratch, Thymio, Pygame and Micro$:$bit depending on their age, at
+conferences like Mixit or pyconfr.
 
 ## Author or Maintainer
 
@@ -184,27 +185,28 @@ their age, at conferences like Mixit or pyconfr.
 addon to manage grey items with group communications, with 10k+ installation from
 CurseForge. \item \textbf{django-zxcvbn-password-validator (June 2018 - present):}
 Translated Django password validator based on Dropbox's zxcvbn library, with 75k+
-installation per month from Pypi. \item \textbf{pySankeybeta (October 2017 - present):}
-Library to generate Sankey diagrams, with 2k+ installation per month from Pypi (1k+
+installation per month from PyPI. \item \textbf{pySankeybeta (October 2017 - present):}
+Library to generate Sankey diagrams, with 2k+ installation per month from PyPI (1k+
 coming from django-survey-and-report). \item \textbf{django-survey-and-report (June
 2017 - present):} Survey app for Django, allowing to easily create and manage surveys,
-with 1k+ installation per month from Pypi. \item \textbf{possum (January 2011 - August
-2016):} A point of sales for bar used by 20 bar owner in the Rouen region until a
-stricter point of sale legislation killed the project in 2018. \end{itemize}
+with 1k+ installation per month from PyPI. \item \textbf{possum (January 2011 - August
+2016):} A point-of-sale system for bars, used by 20 bar owners in the Rouen region until
+stricter point-of-sale legislation killed the project in 2018. \end{itemize}
 
 ## Factotum
 
 \***\*Film making\*\*** : Insa, Rouen
 
 In groups of 3 to 5, writing, filming, editing and promoting of a feminist comedy, an
-action film, a suspens film and a modern western as part of the ``Section Image Étude''
+action film, a suspense film and a modern western as part of the ``Section Image Étude''
 in INSA.
 
 ## **game design**
 
 Design, development and team coordination around a 3D chess game with a twist in the
 historical setting of the French revolution named
-\href{https://discord.gg/jSZGdWYXHY__{Revenge of the Pawns \faDiscord\_\_ (in progress).
+\href{https://discord.gg/jSZGdWYXHY__{Revenge of the Pawns \faDiscord**
+(\href{https://ettin-des-alpes.fr/**{try it online\_\_).
 
 ## **electronic**, **arduino**
 
