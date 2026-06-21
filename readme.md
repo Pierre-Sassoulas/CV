@@ -127,44 +127,42 @@ integrators.
 
 \***\*C++** **docker** **python\*\*** : WiseBim, Remote work
 
-Set up of a SAAS architecture allowing to automatically generate 3D building information
-modeling (BIM) based on architectural 2D plans in a secure and reliable manner through a
-web interface.
+Built a secure, reliable SaaS architecture that automatically generates 3D building
+information models (BIM) from 2D architectural plans through a web interface.
 
 ## Research Engineer
 
 \***\*big data** **python** **C++\*\*** : CEA/INES, Chambéry
 
-Study and implementation of a database cluster and its web interface in order to store,
-display and analyse a wide variety of data flux stemming from sensors.
+Designed and implemented a database cluster and web interface to store, visualize, and
+analyze a wide variety of sensor data streams.
 
 ## Software Engineering Intern
 
 \***\*ruby** **XML** **DO178\*\*** : Thales Avionics SAS, Valence (France)
 
-Specification, design, development, and qualification according to the DO330 norm of a
-quality tool for avionics software development.
+Specified, designed, developed, and qualified a quality tool for avionics software
+development in compliance with the DO-330 standard.
 
 ## Project leader and developer
 
 \***\*python** **SQL** **web\*\*** : A2IA, INSA, Rouen
 
-Project management and development of a tool managing big volume of metadata for
-character recognition. During 25 hours a week in a group of 15 INSA students following
-the ISO9001:2008 norm.
+Led and developed a tool to manage large volumes of metadata for character recognition,
+working 25 hours a week in a 15-student team under the ISO 9001:2008 standard.
 
 ## Developer
 
 \***\*python** **SOAP** **Quality\*\*** : Dynamease, INSA, Rouen
 
-Development of an openERP module for phone call management. During 25 hours a week in a
-group of 7 INSA students respecting the ISO9001:2008 norm.
+Developed an OpenERP module for phone-call management, working 25 hours a week in a
+7-student team under the ISO 9001:2008 standard.
 
 ## Software Engineering Intern
 
 \***\*python** **web\*\*** : Bull, Grenoble
 
-Development of a quotation tool easing the choice and buying procedure of supercomputer
+Developed a quotation tool to streamline the selection and purchasing of supercomputer
 parts.
 
 # PERSONAL PROJECTS \& COMMUNITY
